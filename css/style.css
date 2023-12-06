@@ -20,12 +20,17 @@ h1 {
     color: #707070;
 }
 
+#explore img {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;}
+
 .camp-card {
     position: relative;
     z-index: 1;
-    margin-top: -16px;
+    margin-top: -8px;
     background-color: #ffffff;
     margin-bottom: 32px;
+    border-radius: 8px;
 }
 
 .camp-card h5 {
@@ -36,21 +41,20 @@ h1 {
 
 .camp-card button {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     background-color: #F18234;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+    font-style: normal;
     backdrop-filter: blur(2px);
     padding: 14px 0;
-}
-.bi-arrow-right{
-    font-size: 32px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
 }
 
-@media (max-width: 992px) {
-    .camp-card {
-        margin-top: -172px;
-    }
+.bi-arrow-right {
+    font-size: 32px;
 }
